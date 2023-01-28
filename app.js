@@ -42,7 +42,6 @@ app.post("/weather", function (req, res) {
     "&units=" +
     units;
   https.get(link, function (response) {
-    console.log(response.statusCode);
     response.on("data", function (data) {
       const weather = JSON.parse(data);
       const temp = weather.main.temp;
