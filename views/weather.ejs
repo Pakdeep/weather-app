@@ -1,0 +1,33 @@
+<%- include("partials/header")%>
+
+    <div class="area">
+        <h1 class="heading">Weather App</h1>
+        <div class="box">
+            <form action="/weather" method="post">
+                <input class="cityName" name="Name" type="text" placeholder="City Name" autocomplete="off">
+                <button type="submit"><i class="fa fa-search fa-1.5x" aria-hidden="true"></i></button>
+            </form>
+        </div>
+        <div class="weather">
+            <h1 class="city"><%=city%></h1>
+            <h6 class="date"><%=date%></h6>
+            <h1 class="temp"><%=temp%>°<span class="degree">C</span></h1>
+            
+        <p>Feels Like:<%=feel%>°<span>C</span></p>
+        </div>
+        <hr class="hr1">
+        <div class="desc">
+            <img src=<%=image%> alt="Description" width="50px">
+            <p> <%=desc%></p>
+        </div>
+        <hr class="hr2">
+        <div class="humi-wind">
+            <p class="humidity">Humidity Wind</p>
+            <img class="humi" src="images/humidity.png" alt="humidity">
+            <img class="wind" src="images/wind.png" alt="humidity">
+            <p class="value"><%=humidity%>%  <%=wind%>km/hr  </p>
+            <p class="footer">©DeepJais</p> 
+        </div>
+    </div>
+</body>
+

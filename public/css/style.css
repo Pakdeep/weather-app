@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(218, 158, 158);
+
+}
+
+.heading {
+    padding-top: 5%;
+}
+
+.area {
+    margin: 2.5% auto 0px;
+    padding: 0;
+    text-align: center;
+    width: 20rem;
+    height: 35rem;
+    background-color: aliceblue;
+    border-radius: 30px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.navbar {
+    margin-bottom: 1%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+
+
+}
+
+#navbarNav {
+    position: absolute;
+    right: 0px;
+}
+
+.area .box {
+    margin: 6% auto 0px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    width: 80%;
+    height: 2rem;
+    background-color: rgb(240, 141, 141);
+}
+
+.cityName {
+
+    border-radius: 50px;
+    text-align: center;
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    width: 75%;
+    height: 2rem;
+    font-size: 1.2rem;
+    background: transparent;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+.city {
+    margin-top: 6%;
+    margin-bottom: 0px;
+}
+
+.date {
+    margin: 0px;
+
+}
+
+.temp {
+    margin-top: 5%;
+    font-size: 4rem;
+
+}
+
+ hr.hr1 {
+    width: 60%;
+    border-top: dotted 3px;
+    margin: 3% auto 0px;
+}
+
+hr.hr2 {
+    width: 60%;
+    border-top: dotted 3px;
+    margin: 0 auto 0px;
+}
+
+.weather .degree {
+    font-size: 2rem;
+}
+
+.weather p {
+    margin-top: 3%;
+}
+
+.desc {
+    margin-top: 1%;
+}
+
+.desc p {
+    display: inline-block;
+    position: relative;
+    left: 1rem;
+}
+
+.desc img {
+    position: relative;
+    right: 0.4rem;
+}
+
+.humi-wind {
+    margin-top: 2%;
+}
+
+.humi-wind .humidity {
+    margin-bottom: 0.3rem;
+    word-spacing: 45px;
+}
+
+
+.humi-wind .humi {
+    position: relative;
+    right: 1.5rem;
+}
+
+.humi-wind .wind {
+    display: inline-block;
+    position: relative;
+    left: 1.5rem;
+}
+
+.humi-wind .value {
+    margin-bottom: 0px;
+    word-spacing: 50px;
+    padding-left: 2rem;
+    margin-top: 2%;
+}
+
+.footer {
+    padding-top: 7px;
+}
+
+/* //Weather.ejs */
+#home {
+    text-align: center;
+    height: 20rem;
+    margin-top: 8%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#home .box {
+    margin: 1% auto 0px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    width: 35%;
+    height: 2rem;
+    background-color: rgb(240, 141, 141);
+    padding-left: 5%;
+}
+
+#home .cName {
+    border-radius: 50px;
+    text-align: center;
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    width: 75%;
+    height: 2rem;
+    font-size: 1.2rem;
+    background: transparent;
+}
+
+#home button {
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    right: 0;
+    /* padding-left: 3%; */
+}
+
+.logo {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+   
+
+}
+
+.logo img {
+    width: 20%;
+    border-radius: 100%;
+    
+}
+
+.logo .contact {
+    width: 40rem;
+    border: solid 2px;
+    margin: 1% auto 2% ;
+    }
+
+.logo .contact input {
+    text-align: center;
+    margin: 1%;
+
+}
