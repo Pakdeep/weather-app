@@ -67,6 +67,6 @@ app.post("/weather", function (req, res) {
   });
 });
 
-app.listen(1998, function () {
+app.listen(process.env.PORT || 1998, function () {
   console.log("app listening to port 1998");
 });
